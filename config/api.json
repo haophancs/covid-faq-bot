@@ -1,0 +1,7 @@
+{
+  "secret_key": "08883bf915bf3e7295c0c6abda1cd52cdd3472d9243748d379aaba0063e2e703",
+  "ngrok_auth_token": "<ngrok_auth_token>",
+  "run_with_ngrok": false,
+  "port": 5001,
+  "similarity_threshold": 0.93
+}

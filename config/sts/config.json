@@ -1,0 +1,7 @@
+{
+  "device": "default",
+  "selected_pretrained_model": "digitalepidemiologylab/covid-twitter-bert",
+  "embedding_type": "text-vector1d",
+  "embedding_norm": "l2",
+  "random_state": 108
+}

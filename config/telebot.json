@@ -1,0 +1,9 @@
+{
+  "bot_name": "<bot_name>",
+  "api_key": "<api_key>",
+  "start_text": "*Hi there, I am a COVID FAQ bot!*\nYou can ask me questions about COVID-19, I'll get you the most related FAQ from WHO official site.",
+  "help_text": "*Nearest FAQ:* Just write your question about COVID-19",
+  "text_parsing_mode": "Markdown",
+  "max_other_faqs": 4,
+  "main_api_connection": "default"
+}

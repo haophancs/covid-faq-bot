@@ -1,0 +1,1 @@
+from sts.pipeline import SemanticTextualSimilarityPipeline
