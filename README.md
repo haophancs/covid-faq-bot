@@ -1,11 +1,6 @@
 # COVID FAQ Bot
 Source code of Telegram Bot of a Question-Answering system about COVID-19 content
 
-**Author:**
-- Hao Phu Phan (Фан Фу Хао, БПМИ208)
-- ffan@edu.hse.ru  
-- Higher School of Economics, Moscow
-
 ## Overview
 ### System structure
 Including 4 main modules:
@@ -30,10 +25,10 @@ conda activate covid-faq-bot
 python init.py --device-type cpu # (gpu, cpu)
 ```
 
-### Necessary keys
+### Config
 - ```config/api.json```: ```secret_key``` - self-defined key
 - ```config/telebot.json```: ```bot_name```, ```api_key``` - Telegram bot's name and key (Make sure to ```/setinline``` the bot)
-- ```config/firebase.json```: **(anyway, it's no problem to use my already available config)** On firebase console, create a project, then create a web app and see "Firebase realtime database" in detailed configurations 
+- ```config/firebase.json```: On firebase console, create a project, then create a web app and see "Firebase realtime database" in detailed configurations 
 
 Optional
 - ```config/api.json```: ```ngrok_auth_token``` - Ngrok account's auth token when ```run_with_ngrok``` is ```true```
@@ -65,7 +60,7 @@ Located at ```config/sts/config.json```
 - ```device```: device used by model (```cpu```, ```cuda:0```,...)
 - ```selected_pretrained_model```: ```covid-twitter-bert``` by default
 - ```embedding_type```: ```text-vector1d``` by default, embedding text to vector
-- ```embedding_type```: type of vector normalization, ```l2``` by default
+- ```embedding_norm```: type of vector normalization, ```l2``` by default
 ### Firebase realtime database
 Located at ```config/firebase.json```. 
 - Paste the web app's config from Firebase project's console here
