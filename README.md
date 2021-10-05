@@ -1,5 +1,5 @@
 # COVID FAQ Bot
-Source code of Telegram Bot of a Question-Answering system about COVID-19 content
+Source code of a Telegram-based Question-Answering system about COVID-19 content
 
 ## Overview
 ### System structure
